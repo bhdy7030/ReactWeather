@@ -16,7 +16,7 @@ module.exports = {
       // else{
       //   throw new Error(res.data.message);
       //}
-      debugger;
+      
       if(res.data.cod && res.data.message){
         throw new Error(res.data.message);
       }else{
